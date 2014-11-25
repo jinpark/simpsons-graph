@@ -1,0 +1,141 @@
+{
+    "nodes": [
+        {
+            "name": "Homer Simpson",
+            "caption": "Husband of Marge; father of Bart, Lisa, and Maggie.",
+            "id": 1,
+            "voice actor": "Dan Castellaneta",
+            "root": true
+        },
+        {
+            "name": "Marge Simpson",
+            "caption": "Wife of Homer; mother of Bart, Lisa, and Maggie.",
+            "id": 2,
+            "voice actor": "Julie Kavner",
+            "root": true
+        },
+        {
+            "name": "Bart Simpson",
+            "caption": "Oldest child and only son of Homer and Marge; brother of Lisa and Maggie.",
+            "id": 3,
+            "voice actor": "Nancy Cartwright",
+            "root": true
+        },
+        {
+            "name": "Lisa Simpson",
+            "caption": "Middle child and oldest daughter of Homer and Marge; sister of Bart and Maggie.",
+            "id": 4,
+            "voice actor": "Yeardley Smith",
+            "root": true
+        },
+        {
+            "name": "Maggie Simpson",
+            "caption": "Youngest child (the baby) and daughter of Homer and Marge; sister of Bart and Lisa.",
+            "id": 5,
+            "voice actor": "Various",
+            "root": true
+        }
+    ],
+    "edges": [
+        {
+            "source": 1,
+            "target": 2,
+            "caption": "Husband"
+        },
+        {
+            "source": 1,
+            "target": 3,
+            "caption": "Father"
+        },
+        {
+            "source": 1,
+            "target": 4,
+            "caption": "Father"
+        },
+        {
+            "source": 1,
+            "target": 5,
+            "caption": "Father"
+        },
+        {
+            "source": 2,
+            "target": 1,
+            "caption": "Wife"
+        },
+        {
+            "source": 2,
+            "target": 3,
+            "caption": "Mother"
+        },
+        {
+            "source": 2,
+            "target": 4,
+            "caption": "Mother"
+        },
+        {
+            "source": 2,
+            "target": 5,
+            "caption": "Mother"
+        },        
+        {
+            "source": 3,
+            "target": 1,
+            "caption": "Son"
+        },
+        {
+            "source": 3,
+            "target": 2,
+            "caption": "Son"
+        },
+        {
+            "source": 3,
+            "target": 4,
+            "caption": "Brother"
+        },
+        {
+            "source": 3,
+            "target": 5,
+            "caption": "Brother"
+        },        
+        {
+            "source": 4,
+            "target": 1,
+            "caption": "Daughter"
+        },
+        {
+            "source": 4,
+            "target": 2,
+            "caption": "Daughter"
+        },
+        {
+            "source": 4,
+            "target": 3,
+            "caption": "Sister"
+        },
+        {
+            "source": 4,
+            "target": 5,
+            "caption": "Sister"
+        },
+        {
+            "source": 5,
+            "target": 1,
+            "caption": "Daughter"
+        },
+        {
+            "source": 5,
+            "target": 2,
+            "caption": "Daughter"
+        },
+        {
+            "source": 5,
+            "target": 3,
+            "caption": "Sister"
+        },
+        {
+            "source": 5,
+            "target": 4,
+            "caption": "Sister"
+        }
+    ]
+}
